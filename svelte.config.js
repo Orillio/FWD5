@@ -15,7 +15,7 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: dev ? '' : '/orillio.github.io',
+		base: dev ? '' : '/',
 	},
 	target: "#svelte"
 };
