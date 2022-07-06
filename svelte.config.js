@@ -13,7 +13,7 @@ const config = {
 			default: true
 		},
 		paths: {
-			base: dev ? '' : '/FWD5',
+			base: dev ? '' : '/orillio.github.io',
 		},
 		appDir: 'internal',
 	}
