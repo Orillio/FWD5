@@ -12,9 +12,6 @@ const config = {
 		prerender: {
 			default: true
 		},
-		paths: {
-			base: dev ? '' : '/FWD5',
-		},
 		appDir: 'internal',
 	}
 };
