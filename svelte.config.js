@@ -6,10 +6,6 @@ const dev = process.env.NODE_ENV === 'development';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	adapter: adapter({
-		pages: "docs",
-		assets: "docs"
-	}),
 	preprocess: preprocess(),
 	kit: {
 		adapter: adapter()
