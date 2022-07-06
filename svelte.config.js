@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 
 const dev = process.env.NODE_ENV === 'development';
@@ -13,7 +13,7 @@ const config = {
 			default: false
 		},
 		paths: {
-			base: dev ? '' : '',
+			base: dev ? '' : '/FWD5',
 		},
 		appDir: 'internal',
 	}
