@@ -11,7 +11,7 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: dev ? '' : '/FWD5',
+		base: dev ? '' : '/',
 	},
 	appDir: 'internal',
 };
