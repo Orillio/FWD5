@@ -13,7 +13,7 @@ const config = {
 			default: false
 		},
 		paths: {
-			base: dev ? '' : '/FWD5',
+			base: dev ? '' : '',
 		},
 		appDir: 'internal',
 	}
