@@ -113,19 +113,7 @@ header {
 .sm_link:not(:last-child) {
     margin-right: 30px;
 }
-.tg {
-    background-image: url('/img/telegram.png');
-}
-.vk {
-    background-image: url('/img/vk.webp');
-}
-.gh {
-    background-image: url('/img/gh.png');
-    filter: invert(1);
-}
-.inst {
-    background-image: url('/img/instagram.png');
-} 
+
 .mask {
     background-size: cover;
     width: 150px;
