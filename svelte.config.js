@@ -13,7 +13,7 @@ const config = {
 			default: false
 		},
 		paths: {
-			base: dev ? '' : '/your-repo-name',
+			base: dev ? '' : '/FWD5',
 		},
 		appDir: 'internal',
 	}
