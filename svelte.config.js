@@ -1,4 +1,4 @@
-import adapter from "@sveltejs/adapter-static"; 
+import adapter from '@sveltejs/adapter-auto';
 
 import preprocess from 'svelte-preprocess';
 
@@ -15,9 +15,9 @@ const config = {
 		adapter: adapter()
 	},
 	paths: {
-		base: dev ? '' : '/',
+		base: dev ? '' : '/FWD5',
 	},
-	target: "#svelte"
+	appDir: 'internal',
 };
 
 export default config;
